@@ -1,7 +1,6 @@
 package abstractfactory
 
 // Product
-
 type abstractProduct interface {
 	info() string
 }
@@ -21,7 +20,6 @@ func (b *productB) info() string {
 }
 
 // Factory
-
 type abstractFactory interface {
 	// X createProductA() *abstractProduct
 	// X createProductB() *abstractProduct
